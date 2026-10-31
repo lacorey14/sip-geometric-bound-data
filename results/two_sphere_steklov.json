@@ -1,0 +1,47 @@
+{
+  "R_m": 0.005,
+  "gap_m": 0.005,
+  "separation_over_R": 3.0,
+  "C0": 0.4,
+  "sigma_w": 0.2,
+  "tau0_sphere_s": 0.005,
+  "one_sphere_mu_l0": 1.0,
+  "one_sphere_mu_l1": 0.5,
+  "n": 360,
+  "lmax": 6,
+  "mu_max_unit": 0.6822615279332198,
+  "mu_max_is": "||S_X||/R, not 1/λ_1",
+  "tau_X_over_tau0_sphere": 1.3645230558664396,
+  "tau_X_s": 0.006822615279332199,
+  "tau0_steklov_over_tau0_sphere": 1.3645230558664396,
+  "tau0_steklov_s": 0.006822615279332199,
+  "tau_cluster_s": 0.006247351969872129,
+  "tau_particle_s": 0.004019896380231962,
+  "tau_cluster_over_tau_particle": 1.5541077129733467,
+  "tau_cluster_over_tau_X": 0.9156828743952895,
+  "tau_cluster_over_tau0_steklov": 0.9156828743952895,
+  "far_field_row": {
+    "mu_l0": 1.0,
+    "mu_l1": 0.5,
+    "mu_max": 0.9500015039815445,
+    "n": 240,
+    "lmax": 4,
+    "sep": 20.0
+  },
+  "cluster_low": {
+    "mu_l0": 1.0,
+    "mu_l1": 0.5,
+    "mu_max": 0.6822616691801311,
+    "n": 240,
+    "lmax": 4,
+    "sep": 3.0
+  },
+  "cluster_high": {
+    "mu_l0": 1.0,
+    "mu_l1": 0.5,
+    "mu_max": 0.6822615279332198,
+    "n": 360,
+    "lmax": 6,
+    "sep": 3.0
+  }
+}

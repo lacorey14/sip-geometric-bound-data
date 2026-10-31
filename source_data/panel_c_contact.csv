@@ -1,0 +1,10 @@
+G_true_S,f_slow_Hz,tau_slow_over_tau_particle,reliable,source
+4e-05,39.29139214946667,1.0076457009664415,0,two_Debye_fit_of_archived_spectra
+0.0002,0.7593276929721413,52.14060115393322,0,two_Debye_fit_of_archived_spectra
+0.0008,1.928135886073184,20.53371998849563,0,two_Debye_fit_of_archived_spectra
+0.004,7.309031326018073,5.416833040988772,1,two_Debye_fit_of_archived_spectra
+0.008,11.318449569036728,3.4979881425372814,1,two_Debye_fit_of_archived_spectra
+0.020000000000000004,16.82820164574306,2.352705489146073,1,two_Debye_fit_of_archived_spectra
+0.08000000000000002,22.116776162461303,1.7901253823600047,1,two_Debye_fit_of_archived_spectra
+0.4,24.083089660519438,1.643966905513017,1,two_Debye_fit_of_archived_spectra
+2.0,24.51298845645843,1.6151356842810993,1,two_Debye_fit_of_archived_spectra

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: >-
+  Data and scripts for a geometric upper bound on relaxation times
+  in spectral induced polarization
+message: Please cite this archive by its Zenodo DOI.
+type: dataset
+authors:
+  - name: lacorey14
+license: CC-BY-4.0
+repository-code: https://github.com/lacorey14/sip-geometric-bound-data

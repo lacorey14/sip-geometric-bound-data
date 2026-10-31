@@ -1,0 +1,540 @@
+{
+  "definitions": {
+    "chi": "sigma_s/sigma_w",
+    "beta": "Ceff/Cdl",
+    "normalized_frequency": "fp*beta/fp_ideal",
+    "normalized_amplitude": "peak_abs_im / ideal_peak_abs_im"
+  },
+  "reference": {
+    "sigma_water_S_m": 0.2,
+    "Cdl_F_m2": 0.4,
+    "fp_ideal_hz": 34.453854626674215,
+    "particle_radius_m": 0.005
+  },
+  "summaries": [
+    {
+      "chi_sigma_s_over_sigma_w": 1.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 10.911219197115932,
+      "peak_abs_im_S_m": 0.0011590228956051638,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.3166908119670434,
+      "max_solid_deviation_over_applied": 0.1252496101182038,
+      "max_net_interface_current_abs_A": 6.222613700151911e-17,
+      "normalized_peak_amplitude": 0.3084301303479549
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 36.37067700090032,
+      "peak_abs_im_S_m": 0.001159021574614426,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.3166903447668996,
+      "max_solid_deviation_over_applied": 0.12524958084198035,
+      "max_net_interface_current_abs_A": 6.45360941959396e-17,
+      "normalized_peak_amplitude": 0.3084297788162061
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 109.11157109604481,
+      "peak_abs_im_S_m": 0.001159017800364935,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.3166890099187059,
+      "max_solid_deviation_over_applied": 0.12524949729960103,
+      "max_net_interface_current_abs_A": 4.04364287504173e-17,
+      "normalized_peak_amplitude": 0.308428774442378
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 363.6998715345766,
+      "peak_abs_im_S_m": 0.0011590045906053666,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.316684338059231,
+      "max_solid_deviation_over_applied": 0.12524920611430818,
+      "max_net_interface_current_abs_A": 3.485997946196715e-17,
+      "normalized_peak_amplitude": 0.3084252591642235
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 1091.0536282375012,
+      "peak_abs_im_S_m": 0.0011589668494094464,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.3166709908251619,
+      "max_solid_deviation_over_applied": 0.12524838455376716,
+      "max_net_interface_current_abs_A": 5.334331702481296e-17,
+      "normalized_peak_amplitude": 0.30841521577161984
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 3636.3090452134134,
+      "peak_abs_im_S_m": 0.0011588347665882556,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.3166242864214832,
+      "max_solid_deviation_over_applied": 0.12524563039546185,
+      "max_net_interface_current_abs_A": 4.718739806275713e-17,
+      "normalized_peak_amplitude": 0.3083800669217472
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 3.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 19.44490440360417,
+      "peak_abs_im_S_m": 0.002161421568323615,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.5643752960096924,
+      "max_solid_deviation_over_applied": 0.07672328322412898,
+      "max_net_interface_current_abs_A": 5.893524841940436e-17,
+      "normalized_peak_amplitude": 0.575180644474547
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 3.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 64.81631854461762,
+      "peak_abs_im_S_m": 0.002161419238847396,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.564375039428274,
+      "max_solid_deviation_over_applied": 0.07672323528548947,
+      "max_net_interface_current_abs_A": 7.145615076083015e-17,
+      "normalized_peak_amplitude": 0.57518002457251
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 3.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 194.4487030577602,
+      "peak_abs_im_S_m": 0.0021614125832120877,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.5643743063431219,
+      "max_solid_deviation_over_applied": 0.0767230984264782,
+      "max_net_interface_current_abs_A": 8.503661568424095e-17,
+      "normalized_peak_amplitude": 0.5751782534267686
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 3.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 648.159396866524,
+      "peak_abs_im_S_m": 0.0021613892886172617,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.5643717405988458,
+      "max_solid_deviation_over_applied": 0.07672262068609413,
+      "max_net_interface_current_abs_A": 8.766298428641762e-17,
+      "normalized_peak_amplitude": 0.5751720544509367
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 3.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 1944.4529351069807,
+      "peak_abs_im_S_m": 0.0021613227337354546,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.5643644103616734,
+      "max_solid_deviation_over_applied": 0.07672126656609851,
+      "max_net_interface_current_abs_A": 8.36528168433633e-17,
+      "normalized_peak_amplitude": 0.5751543433850476
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 3.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 6481.21519797554,
+      "peak_abs_im_S_m": 0.0021610898045174853,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.5643387599039014,
+      "max_solid_deviation_over_applied": 0.07671665375212558,
+      "max_net_interface_current_abs_A": 9.070634834394337e-17,
+      "normalized_peak_amplitude": 0.575092358078862
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 10.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 29.26003003805187,
+      "peak_abs_im_S_m": 0.0030688189584058504,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.8492527281809195,
+      "max_solid_deviation_over_applied": 0.032544314129232456,
+      "max_net_interface_current_abs_A": 2.4504193971899096e-16,
+      "normalized_peak_amplitude": 0.8166501584605751
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 10.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 97.53351316264593,
+      "peak_abs_im_S_m": 0.003068815263599853,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.8492534221741509,
+      "max_solid_deviation_over_applied": 0.03254427470444696,
+      "max_net_interface_current_abs_A": 2.3481969185877554e-16,
+      "normalized_peak_amplitude": 0.8166491752276297
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 10.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 292.60122266918114,
+      "peak_abs_im_S_m": 0.003068804707065012,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.8492554050618445,
+      "max_solid_deviation_over_applied": 0.03254416211796876,
+      "max_net_interface_current_abs_A": 3.268073156168149e-16,
+      "normalized_peak_amplitude": 0.8166463660049393
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 10.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 975.3453800134794,
+      "peak_abs_im_S_m": 0.00306876775981918,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.8492623457507414,
+      "max_solid_deviation_over_applied": 0.03254376871586517,
+      "max_net_interface_current_abs_A": 3.371236511872878e-16,
+      "normalized_peak_amplitude": 0.8166365338921389
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 10.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 2926.104481082028,
+      "peak_abs_im_S_m": 0.00306866220162659,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.8492821812792565,
+      "max_solid_deviation_over_applied": 0.03254265028591937,
+      "max_net_interface_current_abs_A": 2.0371870214113512e-16,
+      "normalized_peak_amplitude": 0.8166084435694858
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 10.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 9754.47958458292,
+      "peak_abs_im_S_m": 0.003068292810564227,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.8493516638655859,
+      "max_solid_deviation_over_applied": 0.032538800824839,
+      "max_net_interface_current_abs_A": 8.974275191022983e-17,
+      "normalized_peak_amplitude": 0.8165101441019378
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 30.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 32.64819857844673,
+      "peak_abs_im_S_m": 0.0035083192949947883,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.947592045424446,
+      "max_solid_deviation_over_applied": 0.012300532366927516,
+      "max_net_interface_current_abs_A": 3.612073419863124e-16,
+      "normalized_peak_amplitude": 0.9336065590770776
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 30.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 108.82749391343397,
+      "peak_abs_im_S_m": 0.0035083152056884608,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9475934849029599,
+      "max_solid_deviation_over_applied": 0.012300513263551166,
+      "max_net_interface_current_abs_A": 1.2676824739169702e-15,
+      "normalized_peak_amplitude": 0.9336054708627822
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 30.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 326.4838987916598,
+      "peak_abs_im_S_m": 0.0035083035220518297,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9475975977993928,
+      "max_solid_deviation_over_applied": 0.012300458704367079,
+      "max_net_interface_current_abs_A": 1.037287982399872e-15,
+      "normalized_peak_amplitude": 0.933602361704557
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 30.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 1088.2961962538309,
+      "peak_abs_im_S_m": 0.0035082626304404896,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9476119941116289,
+      "max_solid_deviation_over_applied": 0.012300268002610889,
+      "max_net_interface_current_abs_A": 8.98356844385182e-16,
+      "normalized_peak_amplitude": 0.9335914799479812
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 30.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 3265.0303401573788,
+      "peak_abs_im_S_m": 0.0035081458068366572,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9476531365026392,
+      "max_solid_deviation_over_applied": 0.012299725329354014,
+      "max_net_interface_current_abs_A": 8.253926416735744e-16,
+      "normalized_peak_amplitude": 0.9335603917619804
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 30.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 10885.089583745712,
+      "peak_abs_im_S_m": 0.0035077370359056365,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9477972524431385,
+      "max_solid_deviation_over_applied": 0.012297851504670125,
+      "max_net_interface_current_abs_A": 8.328392717040395e-16,
+      "normalized_peak_amplitude": 0.9334516128310246
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 100.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 33.948463034942854,
+      "peak_abs_im_S_m": 0.0036857247014876523,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9853313483438197,
+      "max_solid_deviation_over_applied": 0.003871433738895476,
+      "max_net_interface_current_abs_A": 3.3359058174905094e-15,
+      "normalized_peak_amplitude": 0.9808163017461008
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 100.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 113.1617473921955,
+      "peak_abs_im_S_m": 0.0036857204896842376,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9853331241310705,
+      "max_solid_deviation_over_applied": 0.0038714271236533595,
+      "max_net_interface_current_abs_A": 3.2003670323261076e-15,
+      "normalized_peak_amplitude": 0.9808151809338364
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 100.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 339.48699029767664,
+      "peak_abs_im_S_m": 0.003685708456078046,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9853381979351752,
+      "max_solid_deviation_over_applied": 0.0038714082299108267,
+      "max_net_interface_current_abs_A": 3.699431308773104e-15,
+      "normalized_peak_amplitude": 0.9808119786444421
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 100.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 1131.6436974296307,
+      "peak_abs_im_S_m": 0.0036856663398289607,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9853559577222261,
+      "max_solid_deviation_over_applied": 0.0038713421828635046,
+      "max_net_interface_current_abs_A": 3.983125713899933e-15,
+      "normalized_peak_amplitude": 0.9808007709968241
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 100.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 3395.1059623928836,
+      "peak_abs_im_S_m": 0.003685546019455796,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9854067125959219,
+      "max_solid_deviation_over_applied": 0.003871154171735122,
+      "max_net_interface_current_abs_A": 3.153741875341347e-15,
+      "normalized_peak_amplitude": 0.9807687522778502
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 100.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 11319.061718736964,
+      "peak_abs_im_S_m": 0.0036851250354502374,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9855845020580425,
+      "max_solid_deviation_over_applied": 0.003870504235850392,
+      "max_net_interface_current_abs_A": 2.5868159577862713e-15,
+      "normalized_peak_amplitude": 0.9806567232987842
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 300.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 34.33845043709553,
+      "peak_abs_im_S_m": 0.0037389200432889225,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9966504708738936,
+      "max_solid_deviation_over_applied": 0.0013088420811681906,
+      "max_net_interface_current_abs_A": 4.672595190451796e-15,
+      "normalized_peak_amplitude": 0.9949722310792337
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 300.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 114.46171762919772,
+      "peak_abs_im_S_m": 0.0037389157999250244,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9966523531498969,
+      "max_solid_deviation_over_applied": 0.001308839780718658,
+      "max_net_interface_current_abs_A": 3.181725863851022e-15,
+      "normalized_peak_amplitude": 0.9949711018683396
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 300.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 343.3870058386457,
+      "peak_abs_im_S_m": 0.00373890367615292,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9966577312159293,
+      "max_solid_deviation_over_applied": 0.0013088332103549142,
+      "max_net_interface_current_abs_A": 1.4629413813640583e-14,
+      "normalized_peak_amplitude": 0.9949678755846962
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 300.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 1144.6449723611572,
+      "peak_abs_im_S_m": 0.003738861244407088,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.99667655601731,
+      "max_solid_deviation_over_applied": 0.001308810241535827,
+      "max_net_interface_current_abs_A": 8.686453465918137e-15,
+      "normalized_peak_amplitude": 0.9949565839795453
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 300.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 3434.1202740280055,
+      "peak_abs_im_S_m": 0.003738740023331452,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9967303546260701,
+      "max_solid_deviation_over_applied": 0.001308744851612386,
+      "max_net_interface_current_abs_A": 7.224997554651885e-15,
+      "normalized_peak_amplitude": 0.9949243255726571
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 300.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 11449.2318829102,
+      "peak_abs_im_S_m": 0.003738315895236849,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 0.9969188069348436,
+      "max_solid_deviation_over_applied": 0.0013085187310604132,
+      "max_net_interface_current_abs_A": 6.465554529734785e-15,
+      "normalized_peak_amplitude": 0.9948114599131445
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1000.0,
+      "beta_Ceff_over_Cdl": 1.0,
+      "peak_frequency_hz": 34.47725481593743,
+      "peak_abs_im_S_m": 0.0037578134610182674,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 1.0006791747836858,
+      "max_solid_deviation_over_applied": 0.0003946178895259024,
+      "max_net_interface_current_abs_A": 3.109814954152818e-14,
+      "normalized_peak_amplitude": 1.0
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1000.0,
+      "beta_Ceff_over_Cdl": 0.3,
+      "peak_frequency_hz": 114.92440331659054,
+      "peak_abs_im_S_m": 0.003757809207077415,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 1.000681095585885,
+      "max_solid_deviation_over_applied": 0.00039461718898425695,
+      "max_net_interface_current_abs_A": 2.8682350159224e-14,
+      "normalized_peak_amplitude": 0.9999988679744494
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1000.0,
+      "beta_Ceff_over_Cdl": 0.1,
+      "peak_frequency_hz": 344.7751008269116,
+      "peak_abs_im_S_m": 0.0037577970530882146,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 1.00068658372984,
+      "max_solid_deviation_over_applied": 0.0003946151881458734,
+      "max_net_interface_current_abs_A": 1.6926067796831336e-14,
+      "normalized_peak_amplitude": 0.999995633649668
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1000.0,
+      "beta_Ceff_over_Cdl": 0.03,
+      "peak_frequency_hz": 1149.2723981673619,
+      "peak_abs_im_S_m": 0.0037577545156129294,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 1.000705793839619,
+      "max_solid_deviation_over_applied": 0.0003946081934909831,
+      "max_net_interface_current_abs_A": 1.9183425075986306e-14,
+      "normalized_peak_amplitude": 0.9999843139086201
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1000.0,
+      "beta_Ceff_over_Cdl": 0.01,
+      "peak_frequency_hz": 3448.0063454604215,
+      "peak_abs_im_S_m": 0.0037576329927146435,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 1.0007606936354143,
+      "max_solid_deviation_over_applied": 0.00039458827974075625,
+      "max_net_interface_current_abs_A": 3.867504921277896e-14,
+      "normalized_peak_amplitude": 0.999951975183043
+    },
+    {
+      "chi_sigma_s_over_sigma_w": 1000.0,
+      "beta_Ceff_over_Cdl": 0.003,
+      "peak_frequency_hz": 11495.563092205439,
+      "peak_abs_im_S_m": 0.003757207811291352,
+      "interpolated": true,
+      "normalized_peak_frequency_fp_beta_over_fpideal": 1.0009530036710808,
+      "max_solid_deviation_over_applied": 0.0003945194094214886,
+      "max_net_interface_current_abs_A": 3.502290214566939e-14,
+      "normalized_peak_amplitude": 0.9998388292199178
+    }
+  ],
+  "separability": [
+    {
+      "chi": 1.0,
+      "frequency_normalization_cv": 7.469287864988604e-05,
+      "amplitude_across_beta_cv": 5.7714602352446794e-05,
+      "mean_normalized_frequency": 0.31667496365975417,
+      "mean_normalized_amplitude": 0.3084182042440216,
+      "max_internal_deviation_over_applied": 0.1252496101182038
+    },
+    {
+      "chi": 3.0,
+      "frequency_normalization_cv": 2.301789205020174e-05,
+      "amplitude_across_beta_cv": 5.457712896277756e-05,
+      "mean_normalized_frequency": 0.5643665921075848,
+      "mean_normalized_amplitude": 0.5751596130647786,
+      "max_internal_deviation_over_applied": 0.07672328322412898
+    },
+    {
+      "chi": 10.0,
+      "frequency_normalization_cv": 4.1420301784012696e-05,
+      "amplitude_across_beta_cv": 6.0961975627772596e-05,
+      "mean_normalized_frequency": 0.849276291052083,
+      "mean_normalized_amplitude": 0.8166168035427844,
+      "max_internal_deviation_over_applied": 0.032544314129232456
+    },
+    {
+      "chi": 30.0,
+      "frequency_normalization_cv": 7.699412721584085e-05,
+      "amplitude_across_beta_cv": 5.9011770079412735e-05,
+      "mean_normalized_frequency": 0.947640918530701,
+      "mean_normalized_amplitude": 0.9335696460309005,
+      "max_internal_deviation_over_applied": 0.012300532366927516
+    },
+    {
+      "chi": 100.0,
+      "frequency_normalization_cv": 9.13449798150265e-05,
+      "amplitude_across_beta_cv": 5.785054598581207e-05,
+      "mean_normalized_frequency": 0.985391640464376,
+      "mean_normalized_amplitude": 0.9807782846496397,
+      "max_internal_deviation_over_applied": 0.003871433738895476
+    },
+    {
+      "chi": 300.0,
+      "frequency_normalization_cv": 9.572328476665228e-05,
+      "amplitude_across_beta_cv": 5.745368795595297e-05,
+      "mean_normalized_frequency": 0.9967143788029905,
+      "mean_normalized_amplitude": 0.9949339296662694,
+      "max_internal_deviation_over_applied": 0.0013088420811681906
+    },
+    {
+      "chi": 1000.0,
+      "frequency_normalization_cv": 9.728936794277658e-05,
+      "amplitude_across_beta_cv": 5.7306904028415966e-05,
+      "mean_normalized_frequency": 1.0007443908742542,
+      "mean_normalized_amplitude": 0.9999616033226163,
+      "max_internal_deviation_over_applied": 0.0003946178895259024
+    }
+  ],
+  "provisional_thresholds": {
+    "equipotential_amplitude_error_5pct": 0.05,
+    "internal_potential_fraction_1pct": 0.01
+  }
+}

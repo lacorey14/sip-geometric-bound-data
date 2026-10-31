@@ -1,0 +1,9 @@
+{
+  "tau0_s": 0.005,
+  "f0_Hz": 31.830988618379067,
+  "passivation_reference": "full_active FEM sum-rule frequency",
+  "f_ref_Hz": 34.5369817306405,
+  "tau_particle_contact_s": 0.004019896380231962,
+  "tau_cluster_contact_s": 0.006247351969872129,
+  "tau_cluster_over_tau_particle": 1.5541077129733467
+}
