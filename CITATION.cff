@@ -14,16 +14,16 @@ authors:
       Sciences, Beijing 100029, China; College of Earth and Planetary
       Sciences, University of Chinese Academy of Sciences, Beijing 100049,
       China
-  - family-names: Li
-    given-names: Ziteng
+  - family-names: Deng
+    given-names: Zekai
     affiliation: >-
       Key Laboratory of Deep Petroleum Intelligent Exploration and
       Development, Institute of Geology and Geophysics, Chinese Academy of
       Sciences, Beijing 100029, China; College of Earth and Planetary
       Sciences, University of Chinese Academy of Sciences, Beijing 100049,
       China
-  - family-names: Deng
-    given-names: Zekai
+  - family-names: Li
+    given-names: Ziteng
     affiliation: >-
       Key Laboratory of Deep Petroleum Intelligent Exploration and
       Development, Institute of Geology and Geophysics, Chinese Academy of
@@ -37,5 +37,5 @@ authors:
       (Group) Co., Ltd, Xi'an 710077, China
 license: CC-BY-4.0
 repository-code: https://github.com/lacorey14/sip-geometric-bound-data
-version: v1.0.1
+version: v1.0.2
 date-released: 2026-10-31

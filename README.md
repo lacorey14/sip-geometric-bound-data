@@ -33,7 +33,7 @@ The figure scripts write SVG, PDF, PNG, and TIFF files under `results/` and `fig
 
 ## Authors
 
-Hai Li, Ziteng Li, Zekai Deng, and Peng Yuan.
+Hai Li, Zekai Deng, Ziteng Li, and Peng Yuan.
 
 ## License
 
