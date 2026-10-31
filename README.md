@@ -31,6 +31,10 @@ python3 fit_two_mode_contact.py
 
 The figure scripts write SVG, PDF, PNG, and TIFF files under `results/` and `figures_vector/`.
 
+## Authors
+
+Hai Li, Ziteng Li, Zekai Deng, and Peng Yuan.
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
